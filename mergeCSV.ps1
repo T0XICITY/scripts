@@ -51,4 +51,4 @@ foreach ($system2 in $secondList){
 }
 
 #Save to new List
-$mainList | Export-Csv C:\Merged.csv
+$mainList | Export-Csv C:\Users\*****\Desktop\Merged.csv
