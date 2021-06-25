@@ -35,7 +35,6 @@ if($ColNamesMain -NotContains $addValue -OR $ColNamesSecond -NotContains $addVal
 #Check which values are included in both lists and add any missing values.
 foreach ($system2 in $secondList){ 
 	foreach($system1 in $mainList){
-		#Tausche hier gehen Input gegen was ist zu prüfen ip oder Host name
 		if($system1.$revValue -eq $system2.$revValue){
 			#Check if value in Main is currently Empty
 			if([string]::IsNullOrWhiteSpace($system1.$addValue)){
